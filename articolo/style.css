@@ -1,0 +1,35 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card-article {
+    max-width: 830px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 30px;
+    background-color: #FBF7E3;
+    gap: 30px;
+    color: #622608;
+    border-radius: 30px;
+}
+
+.card-article .article {
+    flex: 1 1 400px;
+}
+
+.card-article img {
+    max-width: 400px;
+    object-fit: contain;
+}
+
+.card-article .article h1 {
+    font-size: 20px;
+}
+
+.card-article .article p {
+    font-size: 15px;
+}
